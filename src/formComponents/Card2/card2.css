@@ -1,0 +1,129 @@
+
+
+.card2-main{
+    position: relative;
+    bottom: 5%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+ 
+   
+}
+.card2-texts{
+    text-align: start;
+   
+    margin-left: 13px;
+}
+.card2 h1 {
+    color: #424242;
+    font-family: Sofia-Light;
+    font-weight: 500;
+    font-size: 21px;
+  
+    line-height: 16.5px;
+
+}
+
+
+
+.card2 h1 span {
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+}
+
+.card2 p {
+ 
+    margin-top: 10px;
+    color: #424242;
+    font-family: Sofia-Light;
+    font-weight: 400;
+    font-size: 15px;
+ 
+    line-height: 16.5px;
+}
+
+.Slider-Area {
+   
+    display: flex;
+    position: relative;
+    bottom: 8%;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+   
+    
+    
+}
+
+.min-age, .max-age{
+    position: relative;
+     display: flex;
+    color: #142B6F;
+    font-family: Sofia-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    top: 42%;
+    margin: 14px;
+    
+}
+
+
+    
+
+@media screen and (max-width: 601px) { 
+  
+.card2-main{
+    bottom: 18%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    width: 95%;
+ 
+   
+}
+
+
+        .card2 h1 {
+       
+        color: #424242;
+        font-family: Sofia-Light;
+        font-weight: 500;
+        font-size: 20px;
+      
+        line-height: 22.5px;
+        margin-right: 0px;
+    
+    }
+
+    .card2 p {
+     
+        margin-right: 0px;
+        margin-top: 10px;
+        color: #424242;
+        font-family: Sofia-Light;
+        font-weight: 400;
+        font-size: 15px;
+        max-width: 100%;
+        line-height: 16.5px;
+    }
+
+    .Slider-Area {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        position: relative;
+        bottom: 8%;
+       
+        
+        
+    }
+
+
+}
+  

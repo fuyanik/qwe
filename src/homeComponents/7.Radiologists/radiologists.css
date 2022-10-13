@@ -1,0 +1,464 @@
+
+
+
+
+.main {
+    margin-top: 150px;
+    margin-left: 61px;
+    margin-right: 61px;
+    height: 820px;
+    width: 100%;
+    max-width: 1396px;
+    background-color: rgb(250, 250, 250);
+}
+
+.divider {
+    color: rgba(27, 19, 19, 0.096);
+    width: 350px;
+    padding-top: 18px;
+    margin-left: 260px;
+}
+
+
+
+
+.text0 {
+    display: none;
+}
+
+.text1 {
+   
+    margin-top: 20px;
+    margin-bottom: -15px;
+    letter-spacing: -1.4px;
+    padding-top: 10px;
+    margin-left: 497px;
+    font-family: Avenir-Roman;
+    font-size: 42px;
+    width: 45%;
+    display: flex;
+    font-weight: 400;
+}
+
+.text2 {
+    margin-top: 15px;
+    letter-spacing: -1px;
+    font-family: Avenir-Roman;
+    color: #959595;
+    margin-left: 510px;
+    font-size: 42px;
+}
+
+.text3 {
+    display: none;
+}
+
+.row {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.container {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.container .img {
+  
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ffcb5ab91eb492f96d336f9/40c5b866-0cf5-4aa5-adaf-1bb983cc4efd/Jessica+Pallerson.png?format=500w");
+    background-size: cover;
+    width: 245px;
+    height: 306px;
+    border-radius: 10px;
+}
+.container .img-2 {
+  
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ffcb5ab91eb492f96d336f9/c63be59b-ac33-4155-8b1a-73f4cd895b53/Kimberly+Windson.png?format=500w");
+    background-size: cover;
+    width: 245px;
+    height: 306px;
+    border-radius: 10px;
+}
+.container .img-3 {
+  
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ffcb5ab91eb492f96d336f9/24b228ed-e1d0-4d96-b9d9-1c0506b91b2b/Eleonar+Noen.png?format=500w");
+    background-size: cover;
+    width: 245px;
+    height: 306px;
+    border-radius: 10px;
+}
+.container .img-4 {
+  
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ffcb5ab91eb492f96d336f9/54251cdf-7d18-4167-acf9-928e8a45669d/Sarel+Gaur.png?format=500w");
+    background-size: cover;
+    width: 245px;
+    height: 306px;
+    border-radius: 10px;
+}
+    
+
+.docName {
+    font-family: 'Sofia Pro';
+    margin-top: 10px;
+    margin-right: -5px;
+    font-size: 24px;
+}
+
+.schName {
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    
+    max-width: 245px;
+    color: #545454;
+    font-weight: 400;
+}
+
+.exp {
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: #545454;
+    max-width: 250px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+
+.row::-webkit-scrollbar {
+    width: 0;
+}
+
+.divider2 {
+    color: rgba(27, 19, 19, 0.096);
+    width: 350px;
+    padding-top: 18px;
+    margin-left: 260px;
+}
+
+.textBottom {
+    margin-top: 32px;
+    font-family: 'Sofia Pro';
+    font-size: 18px;
+    margin-left: 540px;
+    font-weight: 400;
+}
+
+
+/* Get Started Buttons */
+
+.button31 {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 590px;
+    display: flex;
+    background-color: rgb(8, 8, 141);
+    padding: 4px;
+    padding-left: 20px;
+    color: white;
+    width: 230px;
+    height: 42px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button31:hover {
+    background-color: rgb(255, 208, 0);
+    color: rgb(8, 8, 141);
+}
+
+.buttonText31 {
+    font-family: 'Sofia Pro';
+  
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+
+.line31 {
+  
+    font-size: 22px;
+    width: 3px;
+    
+}
+
+.arrow31 {
+ 
+    
+
+    font-size: 15.5px;
+}
+
+.doctor-section {
+    left: 11%;
+    position: relative;
+    align-items: center;
+  
+    display: flex;
+    gap: 23px;
+    max-width: 100vw;
+    height: auto;
+    
+
+    scroll-padding: 1rem;
+    padding: 0rem;
+    margin: 1rem auto 0;
+    border-radius: 5px;
+    margin-left: 18px;
+    background-color: rgb(250, 250, 250)
+  }
+  
+  .doctor-section__item {
+    
+    border-right: 2px solid rgba(145, 139, 139, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+  
+ 
+    height: 450px;
+   
+    background-color: rgb(250, 250, 250)
+  }
+  
+  /* Other styles */
+
+  
+  .doctor-img-mobile{
+    
+
+align-self: flex-start;
+width: 237px;
+height: 296px;
+
+  }
+
+  .mob-docName {
+    font-family: Sofia-Semibold;
+    margin-top: 4px;
+    margin-right: -5px;
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.mob-schName {
+    font-family: 'Sofia Pro';
+    align-self: flex-start;
+    font-size: 16px;
+    max-width: 245px;
+    color: #545454;
+    font-weight: 400;
+    margin-top: -8px;
+    width: 70%;
+    line-height: 21px;
+}
+
+.mob-exp {
+    align-self: flex-start;
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: #545454;
+    max-width: 250px;
+    font-weight: 400;
+    margin-top: 19px;
+}
+
+
+
+
+/*  MOBİLE VERSİON  */
+
+@media only screen and (max-width:767px) {
+    .divider,
+    .divider2,
+    .buton,
+    .buton2,
+    .buton3 {
+        display: none;
+    }
+ 
+    .main {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: rgb(250, 250, 250);
+    }
+    /*  World class radiologists.
+         Centered around you. */
+    .text0 {
+        line-height: 38px;
+        letter-spacing: -1px;
+        font-family: Avenir-Roman;
+        display: block;
+        font-size: 35px;
+        max-width: 320px;
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+    .text1 {
+        display: none;
+    }
+    .text2 {
+        display: none;
+    }
+    /* Swipe Right (ONLY MOBİLE) */
+    .text3 {
+        font-family: 'Sofia Pro';
+        display: block;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 23px;
+        color: gray;
+    }
+    .row::-webkit-scrollbar {
+        width: 0;
+    }
+    .row {
+        margin-top: 7px;
+        display: flex;
+        overflow-x: auto;
+        padding-left: 520px;
+        margin-left: 8px;
+    }
+    .container {
+        min-width: 240px;
+        margin-left: 35px;
+      
+    }
+    .container img {
+        height: 248px;
+        width: 228px;
+    }
+    .row .container:focus,
+    .row .container:hover {
+        transform: none;
+    }
+    /* Doctor Name */
+    .docName {
+        margin-left: 5px;
+        font-size: 33px;
+        max-width: 190px;
+    }
+    /* School Name */
+    .schName {
+        color: rgba(128, 128, 128, 0.733);
+        margin-left: 5px;
+        font-size: 17px;
+        max-width: 185px;
+    }
+    /* Experience*/
+    .exp {
+        color: rgba(128, 128, 128, 0.733);
+        margin-top: 10px;
+        margin-left: 5px;
+        max-width: 200px;
+    }
+    .textBottom {
+        display: none;
+    }
+    /* Get Started Button*/
+    .button31 {
+        margin-top: 70px;
+        margin-left: 25px;
+    }
+
+
+
+
+
+
+
+
+
+    .doctor-section {
+        left: 0%;
+        position: relative;
+      
+        display: flex;
+        gap: 25px;
+        max-width: 550px;
+        overflow-x: auto;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+      
+        -webkit-overflow-scrolling: touch;
+        scroll-padding: 1rem;
+        padding: 0rem;
+        margin: 1rem auto 0;
+        border-radius: 5px;
+        margin-left: 18px;
+        background-color: rgb(250, 250, 250)
+      }
+      
+      .doctor-section__item {
+        border-right: 2px solid rgba(145, 139, 139, 0.382);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 0 0 300px;
+        scroll-snap-align: start;
+     
+        height: 450px;
+        scroll-snap-align: start;
+        background-color: rgb(250, 250, 250)
+      }
+      
+      /* Other styles */
+    
+      
+      .doctor-img-mobile{
+        
+   
+    align-self: flex-start;
+    width: 84%;
+    height: 60%;
+   
+      }
+
+      .mob-docName {
+        font-family: Sofia-Semibold;
+        margin-top: 10px;
+        margin-right: -5px;
+        font-size: 35px;
+        line-height: 36px;
+        width: 50%;
+        font-weight: 700;
+        align-self: flex-start;
+    }
+    
+    .mob-schName {
+        font-family: 'Sofia Pro';
+        align-self: flex-start;
+        font-size: 16px;
+        max-width: 245px;
+        color: #545454;
+        font-weight: 400;
+        margin-top: 15px;
+        width: 50%;
+    }
+    
+    .mob-exp {
+        align-self: flex-start;
+        font-family: 'Sofia Pro';
+        font-size: 16px;
+        color: #545454;
+        max-width: 250px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    
+      
+      
+
+  
+}

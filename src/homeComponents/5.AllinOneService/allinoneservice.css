@@ -1,0 +1,119 @@
+.all-in-one{
+    margin-top: 110px;
+  
+    width: 100%;
+    height: 820px;
+ 
+    padding-left: 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-in-one-header{
+
+    gap: 25px;
+}
+
+.all-in-one-header .all-in-one-header-p {
+ display: inline;
+font-size: 15px;
+color: #142B6F;
+font-family: 'Sofia Pro';
+background-color: #85FFC7;
+padding: 5px 28px;
+border-radius: 88px;
+}
+
+
+.all-in-one-header .all-in-one-header-h2 {
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    font-family: Avenir-Roman;;
+}
+
+
+
+
+
+.all-in-one-items{
+    margin-top: -30px;
+    
+    margin-left: -65px;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+}
+.service-items {
+    max-width: 350px;
+    margin-top: 50px;
+    height: 280px;
+    
+}
+
+.service-items-p {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    font-family: 'Sofia Pro';
+    min-width: 383px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.service-items-p2 {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    font-family: 'Sofia Pro';
+    min-width: 383px;
+    margin-bottom: 18px;
+
+}
+
+.service-items .spaniko {
+    position: relative;
+    font-weight: 700;
+    margin-bottom: -50px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Sofia Pro';
+    cursor: pointer;
+    
+ 
+}
+
+
+.service-items .spaniko::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(249, 208, 24);
+    height: 2.5px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.4s;
+    
+  }
+  
+  
+  .service-items .spaniko:hover::after{
+  width: 100%;
+  
+  }
+
+
+  @media screen and (max-width: 768px) { 
+
+
+
+    
+   }

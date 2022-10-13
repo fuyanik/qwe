@@ -1,0 +1,42 @@
+.card11-main{
+    bottom: 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+   
+}
+
+
+.card11-main-texts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    color:#222222;
+    font-family: Sofia-Light;
+}
+
+.card11-main-texts span{
+    font-weight: 700;
+}
+.card11-main-texts p:nth-child(1){
+    font-size: 21px;
+}
+
+.card11-main-texts p:nth-child(2){
+    font-size: 15px;
+}
+
+
+
+
+  @media screen and (max-width: 601px) {  
+    .card11-main{
+        width: 90%;
+        position: relative;
+        bottom: 21%;
+    }
+ 
+    
+  }

@@ -1,0 +1,66 @@
+.beyond-methods {
+    display: flex;
+   
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.beyond-methods-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    height: 570px;
+    background-color: #FBFBFB;
+ 
+}
+
+.beyond-methods-text-area {
+    margin-right: 20px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    max-width: 428px;
+}
+
+.beyond-methods-text-area h3{
+   font-weight: 500;
+    font-size: 42px;
+    font-family: Avenir-Roman;
+    color: #000000;
+}
+
+.beyond-methods-text-area p {
+    margin-top: 17px;
+    font-size: 18px;
+    font-family: 'Sofia Pro';
+    color: #000000;
+}
+
+
+.beyond-methods-text-area p:nth-child(2) {
+    margin-top: 29px;
+}
+
+.beyond-methods-text-area .button{
+    margin-top: 15px;
+    width: 200px;
+}
+
+
+.beyond-methods-main .image{
+
+background-image: url("https://images.squarespace-cdn.com/content/v1/5ffcb5ab91eb492f96d336f9/1610572105316-LV3F1KLEUBXCYUMWEMG7/VZgN9WC.gif");
+background-size: cover;
+background-position: center;
+height: 440px;
+width: 398px;
+}   
+
+  
+   
+   
+    

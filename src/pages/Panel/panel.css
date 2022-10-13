@@ -1,0 +1,167 @@
+.collections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    width: 100%;
+    height: 100%;
+ }
+
+ .collections h1{
+   font-family: 'Sofia Pro';
+   color: var(--navyBlue);
+   font-size: 45px;
+   border-bottom: 2px solid var(--navyBlue);
+   
+ }
+ 
+ .collection-items{
+ 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2b3034;
+    width: 100%;
+   
+    gap: 45px;
+    
+    padding-top: 60px ;
+    justify-content: center;
+}
+
+
+ .collection-item{
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 8px 8px, rgba(0, 0, 0, 0.09) 0px 12px 1px;
+    animation: fadeInq 1s ease-in-out;
+ }
+
+ 
+ .collection-item-selected{
+
+    transition: 400ms;
+    justify-content: center;
+    border-radius: 15px;
+    position: fixed;
+    left: 10%;
+    top: 17.5%;
+    z-index: 999999999999;
+    display: flex;
+    flex-direction: row;
+    
+    width: 1292px;
+    height: 525px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: 3px solid var(--navy);
+   
+    
+    
+   }
+
+ 
+ @keyframes fadeInq { 
+    0% {
+       opacity: 0;
+   } 
+    100% {
+          opacity: 1;
+    }
+ }
+
+ .collection-item-selected p {
+    margin-left: 15px;
+ }
+
+
+
+ .collection-item p:nth-child(1) {
+   bottom: 12%;
+   position: relative;
+    font-size: 26px;
+    font-family: 'Sofia Pro';
+    color: var(--navyBlue);
+    margin-top: 20px;
+
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(249, 208, 24);
+    line-height: 48px;
+ }
+
+ .collection-item-selected p {
+    font-size: 15px;
+    font-family: 'Sofia Pro';
+    color: var(--navyBlue);
+    margin-top: 20px;
+
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .collection-item p:nth-child(2) {
+    font-size: 22px;
+    font-family: 'Sofia Pro';
+    color: var(--navyBlue);
+   
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+ }
+
+ .collection-item p:nth-child(2) span {
+    font-size: 23px;
+    font-family: 'Sofia Pro';
+    color: var(--navyBlue);
+    background-color: rgb(249, 208, 24);
+  border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .collection-item-texts-right{
+    display: none;
+ }
+ 
+ .collection-item-texts-right-selected{
+    top: 15%;
+    display: flex;
+   
+    position: absolute;
+    width: 85%;
+    height: 85%;
+   
+  
+ }
+
+ .collection-item-texts-right-selected-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border-left: 1px solid blue;
+ }
+ .collection-item-texts-right-selected-child h2{
+   font-size: 15px;
+
+   color: var(--navyBlue);
+   background-color: rgb(249, 208, 24);
+   border-radius: 5px;
+ }
+
+ .collection-item-texts-right-selected-child p{
+   align-self: flex-start;
+ }

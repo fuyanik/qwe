@@ -1,0 +1,52 @@
+.card10-main{
+    bottom: 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+   
+}
+
+
+.card10-main-texts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    color:#222222;
+    font-family: Sofia-Light;
+}
+
+.card10-main-texts span{
+    font-weight: 700;
+}
+.card10-main-texts p:nth-child(1){
+    font-size: 21px;
+}
+.card10-main-texts p:nth-child(2){
+    font-size: 21px;
+}
+
+.card10-main-texts p:nth-child(3){
+    font-size: 15px;
+}
+
+.card10 .nameİnput::placeholder {
+    font-family: Sofia-Semibold;
+    color: rgb(20, 43, 111);
+    font-size: 23px;
+   position: relative;
+   bottom: 2px;
+  }
+
+
+
+  @media screen and (max-width: 601px) {  
+    .card10-main{
+        width: 90%;
+        position: relative;
+        bottom: 21%;
+    }
+ 
+    
+  }

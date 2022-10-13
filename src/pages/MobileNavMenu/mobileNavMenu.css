@@ -1,0 +1,87 @@
+.mobile-nav-menu{
+    display: flex;
+   align-items:flex-start;
+    width: 100vw;
+    height: 100vh;
+    font-family: Sofia-Light;
+    overflow: hidden;
+    justify-content: center;
+   
+}
+
+.mobile-nav-menu-main {
+    top: 17%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px; 
+    width: 85%;
+    position: relative;
+    
+
+   
+   
+}
+
+.mobile-nav-menu-main h2 {
+  
+    font-size: 28px;
+ 
+    font-family: "Sofia Pro";
+    color: #142B6F;
+    animation: mobileNavAnim 500ms ease forwards;
+}
+
+@keyframes mobileNavAnim {
+    
+    0% {
+      
+        transform: translateY(30px);
+    }
+
+    100%{
+       
+        transform: translateY(0px);
+    }
+}
+
+
+
+.mobile-nav-menu-main .button-2{
+    margin-top: 2vh;
+    height: 54px;
+    width: 88%;
+    animation: mobileNavAnimButton 900ms ease  forwards;
+}
+
+.mobile-nav-menu-main .button-2{
+   
+    height: 54px;
+    width: 88%;
+    animation: mobileNavAnimButton 900ms ease  forwards;
+}
+
+
+
+@keyframes  mobileNavAnimButton {
+
+    0% {
+     
+        transform: translateY(50px);
+    }
+
+    100%{
+      
+        transform: translateY(0px);
+    }
+    
+}
+
+
+.mobile-nav-image{
+    
+    position: absolute;
+    height: 540px;
+    top: 20px;
+    left: 190px;
+
+}

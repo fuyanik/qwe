@@ -1,13 +1,296 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+:root{
+  --navyBlue: #142B6F;
+}
+
+
+.style-none{
+  text-decoration: none;
+}
+
+
+
+
+ /* @import url('http://fonts.cdnfonts.com/css/sofia-pro');
+ */
+ 
+ 
+ 
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  
+  src: local('Sofia Pro'), url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Regular Az.woff') format('woff');
+}  
+
+@font-face {
+  font-family: Sofia-Light;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b8110c38c234c268b5098/1648066832999/Sofia+Pro+Light+Az.otf);
+}
+
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.eot");
+  src: url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.woff") format("woff"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.svg#Sofia Pro Light") format("svg");
+}
+
+
+@font-face {
+  font-family: Sofia-Regular;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b811a9839e072a0f9e13c/1648066842604/Sofia+Pro+Regular+Az.otf);
+}
+
+@font-face {
+  font-family: Sofia-Semibold;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b8191c38c234c268b5ef4/1648066961632/Sofia+Pro+Semi+Bold+Az.otf);
+}
+
+
+
+
+
+
+
+
+
+
+/*
+@import url(//db.onlinewebfonts.com/c/b3be20d887cc494d12ade85591c774a8?family=Sofia+Pro+Light);
+
+
+
+@font-face {
+  font-family: Avenir-Black;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/62099d41770a4c3f1be2a62c/1644797250005/Avenir-Black.otf)
+}
+
+@font-face {
+  font-family: Avenir-Book;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/62099d993304fa1370503a38/1644797337230/Avenir-Book.otf)
+}
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/62099dbdcbc2b75950869ea1/1644797373896/Avenir-Heavy.ttf)
+}
+
+@font-face {
+  font-family: Avenir-Light;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/62099dd41a4ddd43c3739183/1644797396773/Avenir-Light.ttf)
+}
+
+@font-face {
+  font-family: Avenir-Regular;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/62099debe159c97deb63c1bf/1644797419579/Avenir-Regular.ttf)
+}
+
+@font-face {
+  font-family: Avenir-Roman;
+  src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/62099dfcddb5497996cfe6cd/1644797436718/Avenir-Roman.otf)
+}
+
+
+@font-face {
+    font-family: "Sofia Pro Light";
+    src: url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.eot");
+    src: url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.woff") format("woff"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b3be20d887cc494d12ade85591c774a8.svg#Sofia Pro Light") format("svg");
+}
+
+@font-face {
+    font-family: Sofia-Medium;
+    src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b8115228e7c135751b8b6/1648066838560/Sofia+Pro+Medium+Az.otf);
+}
+
+@font-face {
+    font-family: Sofia-Regular;
+    src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b811a9839e072a0f9e13c/1648066842604/Sofia+Pro+Regular+Az.otf);
+}
+
+@font-face {
+    font-family: Sofia-Light;
+    src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b8110c38c234c268b5098/1648066832999/Sofia+Pro+Light+Az.otf);
+}
+
+@font-face {
+    font-family: Sofia-Semibold;
+    src: url(https://static1.squarespace.com/static/5ffcb5ab91eb492f96d336f9/t/623b8191c38c234c268b5ef4/1648066961632/Sofia+Pro+Semi+Bold+Az.otf);
+}
+
+
+*/
+
+.VitamuHome{
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  overflow: hidden;
+ 
+ }
+
+.App {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.left-slide{
+ 
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  transition: transform 750ms cubic-bezier(.73,.19,0,1.02);
+ 
+}
+
+/* .box,.box2,.box3,.box4 {
+
+  border: none;
+  border-top: 7px solid rgb(8, 8, 141);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}  */
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card85,
+.card9,
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.register-page,
+login-page{
+    border: none;
+  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.register-page label {
+  font-weight: 800;
+  font-size: 16px;
+  font-family: Avenir-Roman;
+  color: #000000;
+}
+
+.register-button{
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Sofia-Medium !important;
+}
+
+
+.Panel{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.Panel h2 {
+  
+  color: red;
+  font-size: 19px;
+  font-family: "Sofia Pro Light";
+  text-align: start;
+}
+.Panel p {
+  color: black;
+  font-size: 18px;
+  font-family: "Sofia Pro Light";
+  text-align: start;
+ }
+
+ .panel-item{
+  display: flex;
+  gap: 15px;
+ }
+
+
+ .slide-background{
+  top: 30px;
+  height: 650px;
+  width: 1300px;
+ 
+  background-color: #F1F3F7;
+  z-index: -1;
+  border-bottom-right-radius: 450px;
+  border-top-right-radius: 450px;
+  position: fixed;
+ }
+
+ .slide-background2{
+  left: -20px;
+  top: -50px;
+  height: 820px;
+  width: 1440px;
+  position: fixed;
+  background-color: #F8F9FB;
+  z-index: -2;
+  border-bottom-right-radius: 450px;
+  border-top-right-radius: 450px;
+ }
+
+
+ 
+
+ .Mui-completed{
+  color: red !important;
+ }
+
+
+
+@media screen and (max-width: 768px) {
+ 
+.VitamuHome{
+  max-width: 100vw;
+  overflow: hidden;
+  padding-bottom: 30vh;
+}
+  
 }

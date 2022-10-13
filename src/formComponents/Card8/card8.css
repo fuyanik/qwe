@@ -1,0 +1,52 @@
+.card8-main{
+    bottom: 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+}
+
+.card8-main-texts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+    color:#222222;
+    font-family: Sofia-Light;
+}
+
+.card8-main-texts p:nth-child(1){
+    font-size: 21px;
+}
+   
+
+.card8-main-texts p:nth-child(2){
+   margin-top: 18px;
+    font-size: 21px;
+    font-weight: 700;
+}
+  
+    
+.card8-main-texts p:nth-child(3){
+    font-size: 15px;
+}
+    
+.card8-main-buttons{
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    gap: 5px;
+  
+}
+
+
+@media screen and (max-width: 768px){
+    .card8-main{
+        bottom: 15%;
+        width: 89%;
+    }
+
+    
+}

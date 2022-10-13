@@ -1,0 +1,120 @@
+.card9-main{
+    bottom: 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+   
+}
+
+
+.card9-main-texts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+    color:#222222;
+    font-family: Sofia-Light;
+}
+
+.card9-main-texts span{
+    font-weight: 700;
+}
+.card9-main-texts p:nth-child(1){
+    font-size: 21px;
+}
+
+.card9-main-texts p:nth-child(2){
+    font-size: 15px;
+}
+
+.card9-main-texts-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 45px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 38px;
+width: 154px;
+height: 38px;
+background-color: #FFFFFF;
+box-shadow: 0 2px 6px -2px rgb(0 0 0 / 50%);
+font-family: Sofia-Light;
+color: var(--navyBlue);
+
+}
+
+.card9-main-texts-image-name{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 38px;
+width: 694px;
+height: 36px;
+background-color: #FFFFFF;
+box-shadow: 0 2px 6px -2px rgb(0 0 0 / 50%);
+font-family: Sofia-Light;
+color: var(--navyBlue);
+font-size: 14.5px;
+
+}
+
+.userPanel .card9-main-texts-image-name{
+    width: 150%;
+}
+
+card9-main-texts-image-name p {
+    color:#222222;
+    font-family: Sofia-Light;
+    font-weight: 300;
+}
+
+
+
+.card9-main-texts-button:hover{
+    box-shadow: 0 3.4px 8px -2px rgb(0 0 0 / 60%);
+}
+
+input[type="file"]{
+    z-index: 2;
+    height: 50px;
+    cursor: pointer;
+    top: 15px;
+    position: relative;
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 768px){
+    .card9-main{
+        width: 90%;
+    }
+
+    .card9-main-texts-image-name{
+      margin-top: 10px;
+      width: 95%;
+    }
+
+    .card9-main-texts{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2px;
+        color:#222222;
+        font-family: Sofia-Light;
+    }
+       
+   
+    
+
+    
+}
