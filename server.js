@@ -33,4 +33,4 @@ app.post("/create-payment-intent", async (req, res) => {
 const port = process.env.PORT || 4242;
 console.log("asfd");
 
-app.listen(port, () => console.log("Node server listening on port 4242!"));
+app.listen(process.env.PORT || 4242, () => console.log(`Node server listening on port ${port}!`));
