@@ -41,7 +41,7 @@ import MobileFacts from "./pages/MobileNavMenu/pages/mobileFacts";
 import MobileRecheck from "./pages/MobileNavMenu/pages/mobileRecheck";
 import MobilePeople from "./pages/MobileNavMenu/pages/mobilePeople";
 import MobileHelp from "./pages/MobileNavMenu/pages/mobileHelp";
-import FirebasePay from "./pages/PayScreen/firebasePay";
+
 
 
 // <Route path="/" component={Home} />
@@ -171,7 +171,7 @@ export default function App() {
 
           
           <Route path="/pay-screen" element={<PayScreen/>} />
-          <Route path="/firebase-pay" element={<FirebasePay/>} />
+          
 
 
           <Route path="/user-panel" element={<UserPanel/>} />
