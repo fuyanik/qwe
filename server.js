@@ -1,7 +1,5 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 4242;
-
 // This is your test secret API key.
 const stripe = require("stripe")('sk_test_51LOrQYKGr3XuaAt4d9fT0XXB8CrL4GKbBHG3t8alb1Yo1aIULBvpbUm8UwDZNWNx5YRSatAzkHJH3Jlx25qlPtow00dTA8p2Ij');
 
@@ -32,18 +30,4 @@ app.post("/create-payment-intent", async (req, res) => {
   });
 });
 
-
-if (process.env.NODE_ENV === 'production') {
-  // Exprees will serve up production assets
-  app.use(express.static('client/build'));
-  // Express serve up index.html file if it doesn't recognize route
-  const path = require('path');
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  });
-}
-
-
-
-
-app.listen(port, () => console.log(`Node server listening on port ${port}!`));
+app.listen(4242, () => console.log("Node server listening on port 4242!"));
